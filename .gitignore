@@ -1,0 +1,14 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Personal data: photos, face embeddings, attendance logs and settings stay on this PC
+images/
+data/
+logs/
+
+# Face models are downloaded separately (see README)
+models/
+*.onnx
